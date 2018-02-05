@@ -1,0 +1,49 @@
+MacOS Installation Instructions
+
+1. Install Homebrew:
+Paste the following command into your terminal and run
+	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+2. Install Python3
+Run this command
+	brew install python3
+
+Modify your .bash_profile
+Run this command
+	cd
+Run this command
+	vim .bash_profile
+Press ‘i’ to go into insert mode, then type the following:
+	#python3
+	export PATH=/usr/local/bin/python3:$PATH
+Press ‘esc’
+Type ‘:wq’ and then press ‘enter’ to exit vim
+
+3. Using pip3, install numpy and matplotlib
+Run this command
+	pip3 install matplotlib
+
+Check if you can import matplotlib:
+Run this command in terminal
+	python3
+
+This opens the python interpreter. You will see the prompt ‘>>>’
+Run this command in the python interpreter
+	import matplotlib
+
+If this runs with no errors, you are good to go!
+Exit the python interpreter by running this command
+	quit()
+If you get an error when trying to import matplotlib, you may need to perform these additional steps:
+	Run this command in your terminal:
+		brew doctor
+	If you feel comfortable executing some of brew doctor suggestions, go ahead. Otherwise, raise your hand and ask one of us!
+
+4. Install opencv using home-brew
+	brew install opencv3 --with-contrib --with-python3
+
+5. Install sublime
+Download and install Sublime Text 3 from the following link
+	https://www.sublimetext.com/3
+
+You should be good to go!
