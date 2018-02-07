@@ -39,7 +39,7 @@ while(True):
     if len(contours) > 0:
         # Find the contour that has the largest area
         c = max(contours, key=cv2.contourArea)
-        # Circumscibe that contour
+        # Circumscribe that contour
         ((x, y), radius) = cv2.minEnclosingCircle(c)
 
         # If the circle is large enough
