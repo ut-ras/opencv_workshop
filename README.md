@@ -1,5 +1,5 @@
 # OpenCV Workshop
-Example code and installation instructions for an OpenCV workshop
+Example code and installation instructions for an OpenCV workshop. This workshop is designed to be performed as a live coding exercise that builds up to 6_object_tracking_basic.py line by line. The attached slides were used during the first iteration of this workshop and may be helpful for future iterations.
 
 ## Installing OpenCV
 
