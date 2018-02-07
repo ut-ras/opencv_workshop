@@ -23,7 +23,7 @@ pip install numpy
 pip install matplotlib
 pip install opencv-python
 ```
-and hopefully everything will have installed correctly. To test it start python (just type python in the command prompt) and enter these lines:
+and hopefully everything will have installed correctly. To test it, start python (just type python in the command prompt) and enter these lines:
 ```
 import numpy
 import matplotlib
